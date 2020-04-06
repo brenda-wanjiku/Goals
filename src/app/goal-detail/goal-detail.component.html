@@ -1,0 +1,15 @@
+<!-- (1)<p>
+    {{goal.description}}
+  </p> -->
+
+
+  <!--<p>{{goal.description}}</p>
+<button (click)= 'goalComplete(true)'>Complete</button>  --Deletes if goal is achieved--- -->
+
+
+<p>{{goal.description}}</p>
+<p>This goal will be complete in {{goal.completeDate|dateCount}} days</p>
+<button (click)= 'goalDelete(true)' class="btn btn-outline-danger"> Delete Goal</button>
+
+
+<button (click)="callParentGreet(name)">Greet</button>
